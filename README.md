@@ -1,85 +1,87 @@
-# 🏢 companyinfo-llm
+```markdown
+# 🏢 Companyinfo
 
-companyinfo-llm is a Python-based toolkit that leverages LLMs, modern web scraping, and search APIs to extract and summarize official company information from the web. By inputting a company name, the project automatically finds the official website with search APIs, scrapes relevant sections, and processes the content for downstream use.
+Companyinfo is a Python toolkit designed to automate the extraction and summarization of official company information from the web. By simply entering a company name, Companyinfo utilizes large language models (LLMs), modern web scraping techniques, and search APIs to locate the official website and gather relevant details. This project aims to streamline the process of researching companies, making it faster and more accurate.
 
 ---
 
 ## ✨ Features
 
-- 🔍 **Automated Website Discovery:** Finds the official website for any company using search APIs.
-- 🕸️ **Smart Web Scraping:** Crawls and extracts data from important company web pages (e.g., About, Products, Contact).
-- 🧠 **LLM-Ready:** Prepares data for further processing with Large Language Models.
-- 🐍 **Simple Python Interface:** Easily integrate with `app.py` and `scraper.py` modules.
-- 🦾 **Gradio UI:** Interactive interface for trying out the workflow.
+- **Automated Website Discovery:** Uses search APIs to find a company's official website from its name.
+- **Intelligent Web Scraping:** Gathers relevant information using Playwright and BeautifulSoup, focusing on important pages (e.g., About, Products, Contact).
+- **LLM-Powered Summarization:** Summarizes extracted data for easy consumption.
+- **Simple Interface:** Gradio-based web app for user-friendly interaction.
+- **Configurable & Extensible:** Easily add new keywords or improve extraction logic.
 
 ---
 
-## ⚡ Installation
+## 🚀 Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/mathi7585/companyinfo-llm.git
-   cd companyinfo-llm
+   git clone https://github.com/mathi7585/companyinfo.git
+   cd companyinfo
    ```
 
-2. **Install dependencies**
+2. **Create a virtual environment (optional but recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-   > **Note:** You need [Playwright](https://playwright.dev/python/) and [Gradio](https://www.gradio.app/) installed.  
-   Install Playwright browsers:
-   ```bash
-   playwright install
-   ```
 
-3. **Set up environment variables**
-   - Copy `.env.example` to `.env` and add your [Serper API Key](https://serper.dev/):
+4. **Set up environment variables**
+   - Create a `.env` file in the project root.
+   - Add your Serper API key:
      ```
      SERPER_API_KEY=your_serper_api_key_here
      ```
 
 ---
 
-## 🚀 Usage
+## 💡 Usage
 
-1. **Run the application**
-
+1. **Run the app**
    ```bash
    python app.py
    ```
 
-2. **Interact with the Gradio UI**
-
+2. **Interact via Gradio**
+   - Open the provided URL in your browser.
    - Enter a company name.
-   - The app will:
-     - Find the official website.
-     - Scrape relevant company information.
-     - Display or process the extracted data.
+   - View the summarized company information.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions are welcome! To get started:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes.
+4. Submit a pull request.
+
+Please follow the [Contributor Covenant](https://www.contributor-covenant.org/) guidelines and ensure your code adheres to project conventions.
 
 ---
 
-## 📜 License
+## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Happy scraping! 🚀**
+> For questions, feedback, or suggestions, please open an issue or contact the maintainer.
+```
+
 
 ## License
 This project is licensed under the **MIT** License.
 
 ---
-🔗 GitHub Repo: https://github.com/mathi7585/companyinfo-llm
+🔗 GitHub Repo: https://github.com/mathi7585/Companyinfo
