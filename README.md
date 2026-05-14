@@ -4,7 +4,6 @@
 Companyinfo is a Python toolkit designed to automate the extraction and summarization of official company information from the web. By simply entering a company name, Companyinfo utilizes large language models (LLMs), modern web scraping techniques, and search APIs to locate the official website and gather relevant details. This project aims to streamline the process of researching companies, making it faster and more accurate.
 
 ---
-
 ## ✨ Features
 
 - **Automated Website Discovery:** Uses search APIs to find a company's official website from its name.
