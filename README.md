@@ -68,7 +68,6 @@ Contributions are welcome! To get started:
 Please follow the [Contributor Covenant](https://www.contributor-covenant.org/) guidelines and ensure your code adheres to project conventions.
 
 ---
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
