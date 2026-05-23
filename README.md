@@ -21,7 +21,6 @@ Companyinfo is a Python toolkit designed to automate the extraction and summariz
    git clone https://github.com/mathi7585/companyinfo.git
    cd companyinfo
    ```
-
 2. **Create a virtual environment (optional but recommended)**
    ```bash
    python -m venv venv
