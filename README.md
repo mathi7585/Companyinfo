@@ -65,7 +65,6 @@ Contributions are welcome! To get started:
 4. Submit a pull request.
 
 Please follow the [Contributor Covenant](https://www.contributor-covenant.org/) guidelines and ensure your code adheres to project conventions.
-
 ---
 ## 📄 License
 
