@@ -31,7 +31,6 @@ Companyinfo is a Python toolkit designed to automate the extraction and summariz
    ```bash
    pip install -r requirements.txt
    ```
-
 4. **Set up environment variables**
    - Create a `.env` file in the project root.
    - Add your Serper API key:
