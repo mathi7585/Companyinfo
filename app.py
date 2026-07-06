@@ -3,7 +3,6 @@ import requests
 import gradio as gr
 from dotenv import load_dotenv
 from scraper import extract_text_from_url
-
 load_dotenv()
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
