@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 from scraper import extract_text_from_url
 load_dotenv()
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
-
 def find_official_website(company_name):
     url = "https://google.serper.dev/search"
 
